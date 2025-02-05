@@ -16,7 +16,7 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
-  align-items: center;
+
 }
 
 h1,
@@ -54,6 +54,7 @@ ol {
   grid-template-columns: 711px 399px;
   align-items: end;
   width: 1140px;
+  height: 534px;
   gap: 30px;
   margin: 133px 30px;
 }
@@ -287,7 +288,4 @@ ol {
 .content__list-item :focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-.preloader-template {
-  position: absolute;
 }
