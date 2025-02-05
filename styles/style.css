@@ -16,6 +16,7 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 
@@ -54,9 +55,9 @@ ol {
   grid-template-columns: 711px 399px;
   align-items: end;
   width: 1140px;
-  height: 534px;
+  height: 100vh;
   gap: 30px;
-  margin: 133px 30px;
+
 }
 .search-form {
   display: grid;
