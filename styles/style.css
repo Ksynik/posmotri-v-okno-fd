@@ -57,6 +57,7 @@ ol {
   width: 1140px;
   height: 100vh;
   column-gap: 30px;
+  margin: 333px 390px;
 }
 .search-form {
   display: grid;
