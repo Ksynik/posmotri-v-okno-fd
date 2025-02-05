@@ -56,8 +56,8 @@ ol {
   align-items: end;
   width: 1140px;
   height: 100vh;
-  gap: 30px;
-
+  column-gap: 30px;
+  margin-bottom: 133px;
 }
 .search-form {
   display: grid;
