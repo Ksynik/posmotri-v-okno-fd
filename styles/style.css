@@ -104,8 +104,7 @@ ol {
   overflow: hidden;
 }
 .result {
-  width: 711px;
-  max-height: 456px;
+  grid-area: result;
 }
 .result__video-container {
   position: relative;
@@ -252,7 +251,7 @@ ol {
 }
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  padding: 2px;
+  outline-offset: 2px;
 }
 .search-form__textfield {
   font-size: 18px;
@@ -267,12 +266,6 @@ ol {
   height: 27px;
   font-weight: 400;
   appearance: none;
-}
-.search-form__textfield:focus-visible {
-  outline: 1px solid #fff;
-  max-width: 229px;
-  min-height: 31px;
-  padding: 2px;
 }
 .search-form__textfield:active {
   border-left: 1px solid #fff;
